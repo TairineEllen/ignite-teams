@@ -90,13 +90,13 @@ export function Players() {
             
         } catch (error) {
             console.log(error)
-            Alert.alert("Remover grupo", "Não foi possível remover o grupo")
+            Alert.alert("Remover grupo", "Não foi possível remover a turma")
         }
 
     }
 
     async function handleRemoveGroup() {
-        Alert.alert("Remover", "Deseja remover o grupo?", [
+        Alert.alert("Remover", "Deseja remover a turma?", [
             {
                 text: "Não", style: "cancel"
             },
